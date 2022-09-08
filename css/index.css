@@ -1,0 +1,16 @@
+
+.tiny-font{
+    font-size: 12px;
+}
+
+.cover-image{
+    object-fit: cover;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .side_box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
